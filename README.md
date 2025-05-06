@@ -205,9 +205,9 @@ Vue.prototype.$http = axios.create({
 
 ## 五、反馈
 
-QQ群二维码：495755841
+QQ群二维码：1032272034
 
-<img src="public/QQ2.png" width="200px" />
+<img src="public/QQ3.png" width="200px" />
 
 ## 六、相关大屏案例
 （以下案例基于此项目二次开发）：
