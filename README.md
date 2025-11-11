@@ -1,3 +1,16 @@
+<p align="center">
+  <a
+      href="https://ai.goviewlink.com/saas/"
+      target="_blank"
+      style="
+        padding: 10px 20px;
+        display: inline-block;
+        border-radius: 10px;
+      ">
+    <img src="https://gitee.com/dromara/go-view/raw/master/readme/GoViewPro.png" alt="go-view" />
+  </a>
+</p>
+
 **通知：最新的低代码大屏系统GoView已开源，详见：[https://gitee.com/MTrun/go-view](https://gitee.com/MTrun/go-view)**
 
 <p align="center">
