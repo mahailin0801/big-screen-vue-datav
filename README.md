@@ -3,7 +3,7 @@
   <h2>
   帮孩子投个票吧，靴靴🫶！！！（我正在参加 Gitee 2025 最受欢迎的开源软件投票活动，快来给我投票吧👈~）
   </h2>
-<img src="https://gitee.com/dromara/go-view/raw/master/readme/go-view-gitee-2025-100.png" alt="go-view" style="width: 300px;" width="300px"/>
+<img src="https://gitee.com/dromara/go-view/raw/master/readme/go-view-gitee-2025-100.png" alt="go-view" style="width: 800px;" width="800px"/>
 </a>
 </p>
 <p align="center">
