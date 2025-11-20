@@ -108,7 +108,7 @@ export default {
               fontSize: 24,
               fontWeight: 'normal'
             },
-            subtext: newData.year + '/' + newData.weekCategory[6],
+            subtext: newData.weekCategory[newData.weekCategory.length - 1] || '',
             subtextStyle: {
               color: '#fff',
               fontSize: 16
@@ -123,7 +123,7 @@ export default {
             itemGap: 15,
             itemWidth: 12,
             itemHeight: 12,
-            data: ['平均指标', '我的指标'],
+            data: ['承租房数量', '承租房面积和办公用房承租面积'],
             textStyle: {
               color: '#fff',
               fontSize: 14
@@ -163,21 +163,21 @@ export default {
             },
             indicator: [
               {
-                name: '服务态度',
+                name: '在用',
                 max: newData.maxData
               },
               {
-                name: '产品质量',
+                name: '出租',
                 max: 10
               },
               {
-                name: '任务效率',
+                name: '闲置',
                 max: 12
               },
-              {
-                name: '售后保障',
-                max: 3.5
-              }
+              // {
+              //   name: '售后保障',
+              //   max: 3.5
+              // }
             ]
           },
           grid: {
@@ -198,7 +198,7 @@ export default {
           },
           // 下方Y轴
           yAxis: {
-            name: '工单',
+            name: '预警工单',
             nameLocation: 'end',
             nameGap: 24,
             nameTextStyle: {
@@ -233,7 +233,7 @@ export default {
               data: [
                 {
                   value: newData.radarDataAvg[6],
-                  name: '平均指标',
+                  name: '承租房数量',
                   itemStyle: {
                     normal: {
                       color: '#f8d351'
@@ -257,7 +257,7 @@ export default {
                 },
                 {
                   value: newData.radarData[6],
-                  name: '我的指标',
+                  name: '承租房面积和办公用房承租面积',
                   itemStyle: {
                     normal: {
                       color: '#43dfa2'

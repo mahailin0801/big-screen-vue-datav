@@ -10,14 +10,13 @@ export default {
   data () {
     return {
       cdata: {
-        xData: ["data1", "data2", "data3", "data4", "data5", "data6"],
+        xData: ["自建", "购置", "划拨", "置换", "其他"],
         seriesData: [
-          { value: 10, name: "data1" },
-          { value: 5, name: "data2" },
-          { value: 15, name: "data3" },
-          { value: 25, name: "data4" },
-          { value: 20, name: "data5" },
-          { value: 35, name: "data6" }
+          { value: 10, name: "自建" },
+          { value: 5, name: "购置" },
+          { value: 15, name: "划拨" },
+          { value: 25, name: "置换" },
+          { value: 20, name: "其他" },
         ]
       }
     }

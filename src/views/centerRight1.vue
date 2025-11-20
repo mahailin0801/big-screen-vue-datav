@@ -21,18 +21,18 @@ export default {
   data() {
     return {
       config: {
-        header: ['组件', '分支', '覆盖率'],
+        header: ['地市', '闲置整改完成数量（处）'],
         data: [
-          ['组件1', 'dev-1', "<span  class='colorGrass'>↑75%</span>"],
-          ['组件2', 'dev-2', "<span  class='colorRed'>↓33%</span>"],
-          ['组件3', 'dev-3', "<span  class='colorGrass'>↑100%</span>"],
-          ['组件4', 'rea-1', "<span  class='colorGrass'>↑94%</span>"],
-          ['组件5', 'rea-2', "<span  class='colorGrass'>↑95%</span>"],
-          ['组件6', 'fix-2', "<span  class='colorGrass'>↑63%</span>"],
-          ['组件7', 'fix-4', "<span  class='colorGrass'>↑84%</span>"],
-          ['组件8', 'fix-7', "<span  class='colorRed'>↓46%</span>"],
-          ['组件9', 'dev-2', "<span  class='colorRed'>↓13%</span>"],
-          ['组件10', 'dev-9', "<span  class='colorGrass'>↑76%</span>"]
+          ['苏州', "<span  class='colorGrass'>90%</span>"],
+          ['常州', "<span  class='colorGrass'>80%</span>"],
+          ['无锡', "<span  class='colorGrass'>70%</span>"],
+          ['宿迁', "<span  class='colorGrass'>64%</span>"],
+          ['南通', "<span  class='colorGrass'>55%</span>"],
+          ['连云港', "<span  class='colorGrass'>43%</span>"],
+          ['淮安', "<span  class='colorGrass'>34%</span>"],
+          ['盐城', "<span  class='colorGrass'>26%</span>"],
+          ['扬州', "<span  class='colorGrass'>13%</span>"],
+          ['镇江', "<span  class='colorGrass'>9%</span>"]
         ],
         rowNum: 7, //表格行数
         headerHeight: 35,
@@ -40,8 +40,9 @@ export default {
         oddRowBGC: '#0f1325', //奇数行
         evenRowBGC: '#171c33', //偶数行
         index: true,
-        columnWidth: [50],
-        align: ['center']
+        indexHeader: '排名',
+        columnWidth: [60, 80, 200],
+        align: ['center', 'center', 'center']
       }
     }
   }

@@ -25,7 +25,7 @@
       </div>
       <div class="percent">
         <div class="item bg-color-black">
-          <span>今日任务通过率</span>
+          <span>有证-315.79万m²</span>
           <CenterChart
             :id="rate[0].id"
             :tips="rate[0].tips"
@@ -33,7 +33,7 @@
           />
         </div>
         <div class="item bg-color-black">
-          <span>今日任务达标率</span>
+          <span>无证-243.64万m²</span>
           <CenterChart
             :id="rate[1].id"
             :tips="rate[1].tips"
@@ -131,48 +131,48 @@ export default {
       ranking: {
         data: [
           {
-            name: '周口',
+            name: '苏州',
             value: 55
           },
           {
-            name: '南阳',
+            name: '常州',
             value: 120
           },
           {
-            name: '西峡',
+            name: '无锡',
             value: 78
           },
           {
-            name: '驻马店',
+            name: '宿迁',
             value: 66
           },
           {
-            name: '新乡',
+            name: '南通',
             value: 80
           },
           {
-            name: '新乡2',
+            name: '连云港',
             value: 80
           },
           {
-            name: '新乡3',
+            name: '淮安',
             value: 80
           },
           {
-            name: '新乡4',
+            name: '盐城',
             value: 80
           },
           {
-            name: '新乡5',
+            name: '扬州',
             value: 80
           },
           {
-            name: '新乡6',
+            name: '镇江',
             value: 80
           }
         ],
         carousel: 'single',
-        unit: '人'
+        unit: '处'
       },
       water: {
         data: [24, 45],

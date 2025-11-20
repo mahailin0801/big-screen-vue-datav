@@ -26,7 +26,7 @@
           </div>
           <p class="text" style="text-align: center;">
             {{ item.text }}
-            <span class="colorYellow">(件)</span>
+            <span class="colorYellow">(处)</span>
           </p>
         </div>
       </div>
@@ -50,7 +50,7 @@ export default {
               fontSize: 24
             }
           },
-          text: '今日构建总量'
+          text: '在用'
         },
         {
           number: {
@@ -62,7 +62,7 @@ export default {
               fontSize: 24
             }
           },
-          text: '总共完成数量'
+          text: '出租'
         },
         {
           number: {
@@ -74,7 +74,7 @@ export default {
               fontSize: 24
             }
           },
-          text: '正在编译数量'
+          text: '闲置'
         },
         {
           number: {
@@ -86,7 +86,7 @@ export default {
               fontSize: 24
             }
           },
-          text: '未通过数量'
+          text: '承租'
         }
       ]
     }

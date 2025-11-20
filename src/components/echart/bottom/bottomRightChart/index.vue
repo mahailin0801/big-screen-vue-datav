@@ -47,11 +47,12 @@ export default {
 
       let dateBase = new Date();
       this.cdata.year = dateBase.getFullYear();
+      // 江苏城市列表
+      const jiangsuCities = ['南京', '苏州', '无锡', '常州', '镇江', '扬州', '南通'];
+      // 设置城市名作为横坐标
+      this.cdata.weekCategory = [...jiangsuCities];
       // 周数据
       for (let i = 0; i < 7; i++) {
-        // 日期
-        let date = new Date();
-        this.cdata.weekCategory.unshift([date.getMonth() + 1, date.getDate()-i].join("/"));
 
         // 折线图数据
         this.cdata.weekMaxData.push(this.cdata.maxData);

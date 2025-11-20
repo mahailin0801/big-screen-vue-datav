@@ -60,7 +60,7 @@ export default {
           },
           series: [
             {
-              name: "通过率统计",
+              name: "统计",
               type: "pie",
               radius: [10, 50],
               roseType: "area",

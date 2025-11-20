@@ -24,23 +24,23 @@ export default {
       config: {
         data: [
           {
-            name: '南阳',
+            name: '苏州',
             value: 167
           },
           {
-            name: '周口',
+            name: '常州',
             value: 67
           },
           {
-            name: '漯河',
+            name: '无锡',
             value: 123
           },
           {
-            name: '郑州',
+            name: '宿迁',
             value: 55
           },
           {
-            name: '西峡',
+            name: '南通',
             value: 98
           }
         ]

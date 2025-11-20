@@ -8,7 +8,7 @@
           <div class="d-flex jc-center">
             <dv-decoration-8 class="dv-dec-8" :color="decorationColor" />
             <div class="title">
-              <span class="title-text">大数据可视化平台</span>
+              <span class="title-text">后勤运营管控中心</span>
               <dv-decoration-6
                 class="dv-dec-6"
                 :reverse="true"
@@ -29,16 +29,16 @@
           <div class="d-flex aside-width">
             <div class="react-left ml-4 react-l-s">
               <span class="react-left"></span>
-              <span class="text">数据分析1</span>
+              <span class="text">房产来源</span>
             </div>
             <div class="react-left ml-3">
-              <span class="text">数据分析2</span>
+              <span class="text">宗地情况</span>
             </div>
           </div>
           <div class="d-flex aside-width">
-            <div class="react-right bg-color-blue mr-3">
+            <!-- <div class="react-right bg-color-blue mr-3">
               <span class="text fw-b">vue-big-screen</span>
-            </div>
+            </div> -->
             <div class="react-right mr-4 react-l-s">
               <span class="react-after"></span>
               <span class="text"

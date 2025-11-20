@@ -43,7 +43,7 @@ export default {
             }
           },
           legend: {
-            data: ["已贯通", "计划贯通", "贯通率"],
+            data: ["业主", "原集体企业", "乡镇供电所"],
             textStyle: {
               color: "#B4B4B4"
             },
@@ -92,7 +92,7 @@ export default {
           ],
           series: [
             {
-              name: "贯通率",
+              name: "乡镇供电所",
               type: "line",
               smooth: true,
               showAllSymbol: true,
@@ -107,7 +107,7 @@ export default {
               data: newData.rateData
             },
             {
-              name: "已贯通",
+              name: "业主",
               type: "bar",
               barWidth: 10,
               itemStyle: {
@@ -122,7 +122,7 @@ export default {
               data: newData.barData
             },
             {
-              name: "计划贯通",
+              name: "原集体企业",
               type: "bar",
               barGap: "-100%",
               barWidth: 10,
